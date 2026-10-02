@@ -1,0 +1,4 @@
+# Every change needs review from the owners
+*                @ars512
+/.github/        @ars512
+/src/auth.py     @ars512
