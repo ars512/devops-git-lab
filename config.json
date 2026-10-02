@@ -1,6 +1,6 @@
 {
-  "api_timeout": 30,
+  "api_timeout": 60,
   "base_url": "https://api.bank.example",
   "retries": 1,
-  "cache_ttl": 60
+  "cache_ttl": 300
 }
