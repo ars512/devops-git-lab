@@ -14,5 +14,6 @@ USERS = {
 
 def login(username, password):
     """Return True if credentials are valid."""
+    username = username.strip().lower()
     stored = USERS.get(username)
     return stored is not None and stored == _hash(password)
