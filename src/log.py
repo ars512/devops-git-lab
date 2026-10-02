@@ -1,7 +1,7 @@
 """Logging helper."""
 import logging
 
-LEVEL = logging.DEBUG
+LEVEL = logging.INFO
 
 
 def get_logger(name):
