@@ -1,6 +1,6 @@
 # Banking Demo
 
-Features: basic login
+Features: basic login, reports
 
 ## Usage (run tests)
 
