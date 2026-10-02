@@ -16,3 +16,9 @@ def login(username, password):
     """Return True if credentials are valid."""
     stored = USERS.get(username)
     return stored is not None and stored == _hash(password)
+
+
+def issue_token(username):
+    """New token based auth (work in progress)."""
+    import secrets
+    return username + ":" + secrets.token_hex(16)
