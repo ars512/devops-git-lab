@@ -8,4 +8,4 @@ def normalize_phone(phone):
 
 def format_money(amount):
     """Format amount with two decimals."""
-    return "{:.2f}".format(amount)
+    return "{:,.2f}".format(amount)

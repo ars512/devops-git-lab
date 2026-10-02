@@ -11,4 +11,4 @@ class UtilsTest(unittest.TestCase):
         self.assertEqual(utils.normalize_phone(""), "")
 
     def test_format_money(self):
-        self.assertEqual(utils.format_money(5), "5.00")
+        self.assertEqual(utils.format_money(1234.5), "1,234.50")
