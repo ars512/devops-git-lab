@@ -2,6 +2,6 @@
 
 Features: basic login
 
-## Usage
+## Usage (run tests)
 
     python -m unittest discover -s tests -t .
