@@ -1,6 +1,7 @@
 # Banking Demo
 
-Features: pricing, shipping
+Features: basic login, pricing, shipping, reports
+
 
 ## Usage (run tests)
 
